@@ -1,0 +1,15 @@
+{
+    "name": "tricciardi/usendit-sms",
+    "description": "Package for sending SMS using usendit.pt api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tiago Ricciardi",
+            "email": "tiago.ricciardi@browserbox.pt"
+        }
+    ],
+    "require": {
+      "artisaninweb/laravel-soap": "0.3.0.9"
+    }
+}
