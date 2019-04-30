@@ -11,5 +11,20 @@
     ],
     "require": {
       "artisaninweb/laravel-soap": "0.3.0.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "tricciardi\\UsenditSms\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+            "tricciardi\\UsenditSms\\UsenditSmsServiceProvider"
+        ]
+      }
     }
 }
