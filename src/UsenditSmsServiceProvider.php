@@ -15,7 +15,7 @@ class UsenditSmsServiceProvider extends ServiceProvider
     {
 
       $this->publishes([
-                          __DIR__.'/config/multibanco.php' => config_path('multibanco.php'),
+                          __DIR__.'/config/usenditsms.php' => config_path('usenditsms.php'),
                         ]);
       $this->loadMigrationsFrom(__DIR__.'/migrations');
 
