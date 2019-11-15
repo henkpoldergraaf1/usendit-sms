@@ -3,7 +3,7 @@
 This package makes it easy to build [SMS notifications] for the usendit.co.mz api.
 
 
-##Installation
+## Installation
 Because the package is not registered under packagist you can reference in your composer using a repository entry:
 ```php
    "repositories": [
@@ -31,13 +31,11 @@ USENDIT_SENDER=
 USENDIT_USERNAME=
 USENDIT_PASSWORD=
 USENDIT_PARTNEREVENTID=
-],
 ...
 ```
 
 
 ## Usage
-
 ```php
 /**
  * Sendout an sms via the api
