@@ -1,6 +1,6 @@
 {
     "name": "tricciardi/usendit-sms",
-    "description": "Package for sending SMS using usendit.pt api",
+    "description": "Package for sending SMS using usendit.co.mz v2 api",
     "type": "library",
     "license": "MIT",
     "authors": [
